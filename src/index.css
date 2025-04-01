@@ -3,3 +3,9 @@
 a {
   text-decoration: none;
 }
+
+
+.nav-link:hover {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.1);
+}
