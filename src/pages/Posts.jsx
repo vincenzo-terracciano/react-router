@@ -1,12 +1,6 @@
-import Header from "../components/Header"
-import Footer from "../components/Footer"
-
-
 export default function Posts() {
     return (
         <>
-
-            <Header />
 
             <main>
                 <section>
@@ -39,7 +33,6 @@ export default function Posts() {
                 </section>
             </main>
 
-            <Footer />
         </>
     )
 }
