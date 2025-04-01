@@ -8,7 +8,7 @@ export default function Home() {
                         <div className="row align-items-md-stretch my-5">
                             <div className="col-md-6">
                                 <div
-                                    className="h-100 p-5 text-white bg-info border rounded-3">
+                                    className="h-100 p-5 text-black bg-info border rounded-3">
                                     <h2>Benvenuti nel nostro blog!</h2>
                                     <p>
                                         "Ogni storia merita di essere raccontata"
@@ -16,7 +16,7 @@ export default function Home() {
                                         Ogni settimana pubblichiamo nuovi post per ispirarti, informarti e intrattenerti. Unisciti a noi in questo viaggio di scoperta!
                                     </p>
                                     <button
-                                        className="btn btn-outline-light"
+                                        className="btn btn-outline-dark"
                                         type="button">
                                         Scopri di più
                                     </button>

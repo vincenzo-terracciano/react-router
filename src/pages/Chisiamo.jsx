@@ -3,26 +3,8 @@ export default function Chisiamo() {
         <>
             <main>
                 <div className="container">
-                    <div className="row align-items-md-stretch my-5">
-                        <div className="col-md-6">
-                            <div
-                                className="h-100 p-5 text-white bg-info border rounded-3">
-                                <h2>Change the background</h2>
-                                <p>
-                                    Swap the background-color utility and add a `.text-*` color
-                                    utility to mix up the jumbotron look. Then, mix and match with
-                                    additional component themes and more.
-                                </p>
-                                <button
-                                    className="btn btn-outline-light"
-                                    type="button">
-                                    Example button
-                                </button>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div className="goals">
+                    <div className="goals mt-5">
                         <h3>Goals</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero dolorem, impedit natus optio et sapiente earum atque, saepe ut totam soluta beatae. Magni id unde, impedit eligendi est animi minus.
                             Iure ad ducimus perspiciatis veritatis maxime eligendi ipsum laudantium rerum error enim magni, et saepe expedita magnam excepturi cum hic distinctio ea eveniet in sit voluptas, aperiam est. Eius, blanditiis!
