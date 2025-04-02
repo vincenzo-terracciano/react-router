@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react"
-import { useParams } from "react-router-dom"
+import { useNavigate, useParams } from "react-router-dom"
 
 export default function Post() {
 
     const [post, setPost] = useState(null)
     const { id } = useParams()
+    const navigate = useNavigate()
 
     useEffect(() => {
         fetch(`http://localhost:3000/api/v1/posts/${id}`)
@@ -32,6 +33,9 @@ export default function Post() {
                                         <img className="img-fluid" src={`http://localhost:3000${post.image}`} alt={post.title} />
                                     </div>
                                     <div className="col-7">
+                                        <button onClick={() => navigate(-1)} className="back">
+                                            <i className="bi bi-arrow-left"></i>
+                                        </button>
                                         <h1>{post.title}</h1>
                                         <p>{post.content}</p>
                                     </div>
