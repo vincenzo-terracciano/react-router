@@ -33,7 +33,7 @@ export default function Post() {
                                         <img className="img-fluid" src={`http://localhost:3000${post.image}`} alt={post.title} />
                                     </div>
                                     <div className="col-7">
-                                        <button onClick={() => navigate(-1)} className="back">
+                                        <button onClick={() => navigate(-1)} className="bac btn btn-info">
                                             <i className="bi bi-arrow-left"></i>
                                         </button>
                                         <h1>{post.title}</h1>
