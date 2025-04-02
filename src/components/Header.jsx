@@ -8,7 +8,7 @@ export default function Header() {
                     className="navbar navbar-expand-sm bg-info">
                     <div className="container">
                         <a className="navbar-brand" href="/">
-                            <img src="../public/vite.svg" alt="" />
+                            <img src="/vite.svg" alt="" />
                         </a>
                         <div className="collapse navbar-collapse" id="collapsibleNavId">
                             <ul className="navbar-nav me-auto mt-2 mt-lg-0">
