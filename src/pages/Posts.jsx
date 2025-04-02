@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react"
+import { Link } from "react-router-dom";
 
 export default function Posts() {
 
@@ -29,7 +30,7 @@ export default function Posts() {
                                             <img src={`http://localhost:3000${post.image}`} className="card-img-top" alt={post.title} />
                                             <div className="card-body">
                                                 <h3>{post.title}</h3>
-                                                <button className="btn btn-primary mt-3">Scopri di più</button>
+                                                <Link to={`/posts/${post.id}`} className="btn btn-primary mt-3">Scopri di più</Link>
                                             </div>
                                         </div>
                                     </div>
